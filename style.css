@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body{
+    margin: 0;
+}
+
+header{
+    display: flex;
+    background-image: linear-gradient(to right, #2929fad8, #0000ff52);
+    align-items: center;
+    justify-content: space-between;
+    height: 13vh;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header li{
+    background-color: rgb(255, 51, 0);
+    padding: 10px;
+    margin: 5px;
+}
+
+header img{
+    width: 5vw;
+    height: 90%;
+}
+
+h1{
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
+    text-align: center;
+    margin: 10px;
+}
+
+main{
+    max-width: 57%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+main > p{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 750px;
+    margin: 20px;
+    text-align: center;
+    text-indent: 20px;
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+section div{
+    flex-basis: 10px;
+    margin: 5px;
+}
+
+section div img{
+    width: 500px;
+}
+
+h5{
+    margin: 5px;
+    text-align: center;
+}
+
+.container-footer{
+    display: flex;
+}
+
+footer img{
+    width: 40%;
+}
+
+footer{
+    background-color: #2929fad8;
+    height: 15vh;
+
+}
+footer a{
+    color: white;
+}
+
+.esquerda{
+    width: 25%;
+}
+footer p{   
+    text-align: center;
+    font-size: 0.8em;
+}
+
+.cardapio{
+    width: 50%;
+}
+
+.direita{
+    width: 25%;
+}
+
+.social{
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+
+}
+
+.social li {
+    width: 20%;
+    text-align: center;
+
+}
+
+td a{
+    margin: 10px;
+}
